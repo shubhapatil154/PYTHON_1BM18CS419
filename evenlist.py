@@ -6,11 +6,14 @@ def split_num(num_list):
     print ('EVEN LIST IS:',even_list)
     
 num_list=[]
-n=input("enter the number of elements in the list\n")
-for i in range(1,n):
-    num_list.append(i)
+n=input('enter the number of elements in the list\n')
+print('enter the elemnts\n')
+for i in range(0,n):
+    elements=int(input())
+    num_list.append(elements)
+	
+	
 split_num(num_list)
-
 
 
             
