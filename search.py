@@ -1,13 +1,16 @@
 def search(list,key):
     for i in list:
         if(i==key):
-            print('KEY FOUND')
+            return True
             break
     else:
-       print('key not found')
+       return  False
        
     
 list=[1,2,3,4,5,6,7]
 key=int(input("enter the key element to be searched"))
-search(list,key)
-    
+result=search(list,key)
+if(result==True):
+    print('KEY FOUND')
+else:
+    print('key not found')
