@@ -39,3 +39,21 @@ print("RECIEVER".ljust(20),end=" ")
 print("CALL_DURATION".ljust(20),end=" ")
 print("CALL_TYPE".ljust(20))
 Util().parse_customer(list_of_call_string)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"""https://www.geeksforgeeks.org/python-string-ljust-rjust-center/
